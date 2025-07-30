@@ -1,0 +1,32 @@
+[
+  {
+    "criterion": {
+      "en": "Human Dignity",
+      "de": "Menschenwürde"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "How important is it to you that every person is treated with respect?",
+          "de": "Wie wichtig ist dir, dass jeder Mensch respektvoll behandelt wird?"
+        },
+        "type": "scale",
+        "from": 0,
+        "to": 100
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Would you turn down a well-paid job if you had to treat people only as 'resources'?",
+          "de": "Würdest du einen gut bezahlten Job ablehnen, wenn du Menschen nur als 'Ressourcen' behandeln dürftest?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Yes, immediately!", "de": "Ja, sofort!", "points": 100 },
+          { "en": "No, I wouldn't mind.", "de": "Nein, wäre mir egal.", "points": 0 }
+        ]
+      }
+    ]
+  }
+]

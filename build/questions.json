@@ -1,32 +1,2405 @@
 [
   {
-    "criterion": {
-      "en": "Human Dignity",
-      "de": "Menschenwürde"
-    },
+    "criterion": { "en": "Human Dignity", "de": "Menschenwürde" },
     "questions": [
       {
-        "id": 1,
+        "id": 101,
         "text": {
-          "en": "How important is it to you that every person is treated with respect?",
-          "de": "Wie wichtig ist dir, dass jeder Mensch respektvoll behandelt wird?"
+          "en": "How important is it to you that every person – regardless of status, origin or job title – is treated with respect?",
+          "de": "Wie wichtig ist dir, dass jeder Mensch – unabhängig von Status, Herkunft oder Jobtitel – respektvoll behandelt wird?"
         },
         "type": "scale",
         "from": 0,
         "to": 100
       },
       {
-        "id": 2,
+        "id": 102,
         "text": {
-          "en": "Would you turn down a well-paid job if you had to treat people only as 'resources'?",
-          "de": "Würdest du einen gut bezahlten Job ablehnen, wenn du Menschen nur als 'Ressourcen' behandeln dürftest?"
+          "en": "Would you turn down a well-paid job if you had to treat colleagues only as 'resources'?",
+          "de": "Würdest du einen gut bezahlten Job ablehnen, wenn du dort Menschen nur als „Ressourcen“ behandeln müsstest?"
         },
         "type": "choice",
         "options": [
-          { "en": "Yes, immediately!", "de": "Ja, sofort!", "points": 100 },
-          { "en": "No, I wouldn't mind.", "de": "Nein, wäre mir egal.", "points": 0 }
+          { "en": "Yes", "de": "Ja", "points": 100 },
+          { "en": "No", "de": "Nein", "points": 0 }
         ]
+      },
+      {
+        "id": 103,
+        "text": {
+          "en": "Your boss plans a 'mistake of the week' award to publicly highlight errors. How do you react?",
+          "de": "Dein Chef plant, zur Motivation wöchentlich einen „Patzer des Tages“ auszurufen, um den größten Fehler öffentlich hervorzuheben. Wie reagierst du?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Great idea!", "de": "Tolle Idee!", "points": 0 },
+          { "en": "Strongly advise against it", "de": "Du rätst dringend ab", "points": 100 },
+          { "en": "Nod and update CV", "de": "Du nickst, aktualisierst heimlich deinen Lebenslauf", "points": 50 }
+        ]
+      },
+      {
+        "id": 104,
+        "text": {
+          "en": "Does it bother you when people are treated 'like numbers'?",
+          "de": "Stört es dich, wenn Menschen „wie Nummern“ behandelt werden?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Yes", "de": "Ja", "points": 100 },
+          { "en": "No", "de": "Nein", "points": 0 }
+        ]
+      },
+      {
+        "id": 105,
+        "text": {
+          "en": "If someone constantly makes disparaging jokes about others, would you confront them?",
+          "de": "Stell dir vor, jemand in deiner Anwesenheit macht fortlaufend abfällige Witze über andere. Würdest du ihn zurechtweisen?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Yes, I'd intervene", "de": "Ja, würde ich", "points": 100 },
+          { "en": "No, I'd change the topic", "de": "Nein, ich würde das Thema wechseln", "points": 0 }
+        ]
+      },
+      {
+        "id": 106,
+        "text": {
+          "en": "You see a manager treating a waiter badly. Do you intervene?",
+          "de": "Du siehst, wie ein Manager im Restaurant einen Kellner herablassend behandelt. Mischt du dich ein?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Intervene", "de": "Eingreifen", "points": 100 },
+          { "en": "Stay out of it", "de": "Hoffen, dass Karma das regelt", "points": 0 }
+        ]
+      },
+      {
+        "id": 107,
+        "text": {
+          "en": "Would you accept one person being slightly humiliated if it meant saving five lives?",
+          "de": "Würdest du in Kauf nehmen, dass eine Person leicht gedemütigt wird, wenn du dadurch fünf anderen das Leben retten könntest?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "No, dignity is inviolable", "de": "Würde unantastbar", "points": 100 },
+          { "en": "The end justifies the means", "de": "Zweck heiligt Mittel", "points": 0 }
+        ]
+      },
+      {
+        "id": 108,
+        "text": {
+          "en": "Would you be proud if an intern addresses you by your first name, or do you prefer titles?",
+          "de": "Angenommen, du leitest ein Team: Wärst du stolz, wenn dich die neue Praktikantin ohne Zögern duzt, oder legst du Wert auf Titel?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "First name is fine", "de": "Locker duzen", "points": 100 },
+          { "en": "Title please", "de": "Titel pochen", "points": 0 }
+        ]
+      },
+      {
+        "id": 109,
+        "text": {
+          "en": "How do you react when someone is personally insulted in a heated debate?",
+          "de": "Wie reagierst du, wenn jemand in einer hitzigen Diskussion persönlich beleidigt wird?"
+        },
+        "type": "scale",
+        "from": 0,
+        "to": 100
+      },
+      {
+        "id": 110,
+        "text": {
+          "en": "Would you correct a friend who makes a discriminatory remark?",
+          "de": "Würdest du einen Freund zurechtweisen, der sich im privaten Gespräch abfällig über eine Gruppe von Menschen äußert?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Yes, always", "de": "Ja, würde ich", "points": 100 },
+          { "en": "No, not my business", "de": "Nein, war sicher nicht so gemeint", "points": 0 }
+        ]
+      },
+      {
+        "id": 111,
+        "text": {
+          "en": "Is it acceptable to stress-test job applicants with mean questions?",
+          "de": "Findest du es vertretbar, Bewerber mit fiesen Fangfragen unter Stress zu setzen?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "No, that's not okay", "de": "Verzicht/gegen Demo", "points": 100 },
+          { "en": "Yes, that's fine", "de": "Okay finden", "points": 0 }
+        ]
+      },
+      {
+        "id": 112,
+        "text": {
+          "en": "A superintelligent AI suggests weekly sedation of all citizens to fight crime. Would you agree?",
+          "de": "Eine superintelligente KI schlägt vor, zur Verbrechensbekämpfung alle Bürger einmal pro Woche präventiv zu betäuben. Würdest du zustimmen?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Absolutely not!", "de": "Nein!", "points": 100 },
+          { "en": "I'd consider it", "de": "Kurz überlegen", "points": 50 }
+        ]
+      },
+      {
+        "id": 113,
+        "text": {
+          "en": "The end never justifies the means if human dignity is violated. How much do you agree?",
+          "de": "„Der Zweck heiligt niemals die Mittel, wenn die Würde eines Menschen verletzt wird.“ – Wie sehr stimmst du zu?"
+        },
+        "type": "scale",
+        "from": 0,
+        "to": 100
+      },
+      {
+        "id": 114,
+        "text": {
+          "en": "Would you do anything undignified for 5 minutes of internet fame?",
+          "de": "Für 5 Minuten Internetruhm würdest du… was tun? Oder ist dir deine eigene Würde wichtiger?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Never!", "de": "Nie", "points": 100 },
+          { "en": "Maybe for millions", "de": "Evtl.", "points": 50 },
+          { "en": "Yes, why not", "de": "Sofort", "points": 0 }
+        ]
+      },
+      {
+        "id": 115,
+        "text": {
+          "en": "Would you enforce a decree for polite behavior, or do you respect self-determination?",
+          "de": "Angenommen, du hättest für einen Tag absolute Macht. Würdest du höflichen Umgangston vorschreiben oder Selbstbestimmung achten?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Reject decree (self-determination)", "de": "Ablehnen (Selbstbestimmung)", "points": 100 },
+          { "en": "Enforce decree", "de": "Dekret erlassen", "points": 50 }
+        ]
+      },
+      {
+        "id": 116,
+        "text": {
+          "en": "Everyone has the right not to be judged by economic value alone. Do you agree?",
+          "de": "Jeder Mensch hat ein Recht darauf, nicht allein nach seinem ökonomischen Nutzen beurteilt zu werden. Stimmst du zu?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Agree", "de": "Zustimmung", "points": 100 },
+          { "en": "Disagree", "de": "Ablehnung", "points": 0 }
+        ]
+      },
+      {
+        "id": 117,
+        "text": {
+          "en": "Is it acceptable to yell at employees to motivate them?",
+          "de": "Findest du es in Ordnung, Mitarbeiter gelegentlich laut anzuschreien, um sie zu besseren Leistungen zu treiben?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "No, never!", "de": "Unakzeptabel", "points": 100 },
+          { "en": "Yes, sometimes", "de": "In Ordnung", "points": 0 }
+        ]
+      },
+      {
+        "id": 118,
+        "text": {
+          "en": "How do you feel about talk shows with guests who constantly interrupt and insult each other?",
+          "de": "Wenn in deiner Lieblings-Talkshow Gäste ständig ins Wort fallen und sich beleidigen, was fühlst du?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Embarrassment", "de": "Fremdscham", "points": 100 },
+          { "en": "Entertainment", "de": "Unterhaltung", "points": 0 }
+        ]
+      },
+      {
+        "id": 119,
+        "text": {
+          "en": "Would you rather quit your job than participate in decisions that degrade people?",
+          "de": "Würdest du lieber deinen Job kündigen, als bei einer Entscheidung mitzuwirken, die bestimmte Menschen entwürdigt?"
+        },
+        "type": "choice",
+        "options": [
+          { "en": "Yes", "de": "Ja", "points": 100 },
+          { "en": "No", "de": "Nein", "points": 0 }
+        ]
+      },
+      {
+        "id": 120,
+        "text": {
+          "en": "On a scale from 0 to 100: How much do you live by the principle that everyone, from CEO to cleaner, should be treated with the same courtesy?",
+          "de": "Auf einer Skala von 0 bis 100: Wie sehr lebst du nach dem Prinzip, dass jeder Mensch – vom CEO bis zur Reinigungskraft – mit der gleichen Höflichkeit behandelt werden sollte?"
+        },
+        "type": "scale",
+        "from": 0,
+        "to": 100
       }
     ]
   }
+  // ... Folgeblöcke für Solidarität, Nachhaltigkeit etc. nach exakt diesem Muster ...
+]
+  }    // Letzte geschweifte Klammer der ersten Kategorie
+],     // Letzte eckige Klammer der ersten Kategorie UND KOMMA setzen
+{
+  // <--- Hier beginnt die neue Kategorie „Solidarity“
+{
+  "criterion": { "en": "Solidarity", "de": "Solidarität" },
+  "questions": [
+    {
+      "id": 201,
+      "text": {
+        "en": "How important is community and mutual help to you?",
+        "de": "Wie wichtig ist dir Zusammenhalt und gegenseitige Hilfe in Gemeinschaften?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 202,
+      "text": {
+        "en": "You have one chocolate bar left when a colleague walks by hungry. Do you share or defend it like Gollum?",
+        "de": "Du hast nur noch einen Schokoriegel in der Schublade, als dein Kollege hungrig vorbeischaut. Teilst du oder verteidigst du ihn wie Gollum seinen „Schatz“?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Share", "de": "Teilen", "points": 100 },
+        { "en": "Keep it for myself", "de": "Behalten", "points": 0 }
+      ]
+    },
+    {
+      "id": 203,
+      "text": {
+        "en": "Your neighbor borrows your WiFi for the fifth time without asking. Do you offer your password or set up a firewall?",
+        "de": "Wenn dein Nachbar zum fünften Mal dein WLAN „ausleiht“, ohne zu fragen: Bietest du ihm das Passwort an oder richtest du eine Firewall ein?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Offer password", "de": "Passwort geben", "points": 100 },
+        { "en": "Set up firewall", "de": "Firewall", "points": 0 }
+      ]
+    },
+    {
+      "id": 204,
+      "text": {
+        "en": "You win €1,000. Do you keep it, treat friends to dinner, or donate to charity?",
+        "de": "Angenommen, du gewinnst 1.000 €. Behaltest du alles, spendierst du ein Dinner, oder spendest du einen Teil?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Donate to charity", "de": "Spenden", "points": 100 },
+        { "en": "Treat friends to dinner", "de": "Dinner spendieren", "points": 75 },
+        { "en": "Keep everything", "de": "Behalten", "points": 0 }
+      ]
+    },
+    {
+      "id": 205,
+      "text": {
+        "en": "A colleague in your team is running out of time. Do you help, or do you say, 'Plan better next time!'?",
+        "de": "Im Teamprojekt gerät eine Kollegin in Zeitnot. Hilfst du ihr selbstverständlich oder sagst du: 'Tja, selber schuld – besser planen beim nächsten Mal!'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Help", "de": "Helfen", "points": 100 },
+        { "en": "No help", "de": "Nicht helfen", "points": 0 }
+      ]
+    },
+    {
+      "id": 206,
+      "text": {
+        "en": "On a scale from 0-100: 'Real friends share even the last slice of pizza.' How much does this describe you?",
+        "de": "Auf einer Skala von 0-100: Wie sehr trifft der Satz 'Echte Freunde teilen sich auch die letzte Pizza' auf dich zu?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 207,
+      "text": {
+        "en": "Your city is planning a homeless shelter next door. Do you bring clothes and help, or look for a new neighborhood?",
+        "de": "Deine Stadt plant eine Notunterkunft für Obdachlose direkt neben deinem Haus. Hilfst du mit oder suchst du nach einer neuen Gegend?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Help actively", "de": "Aktiv helfen", "points": 100 },
+        { "en": "Move away", "de": "Umziehen", "points": 0 }
+      ]
+    },
+    {
+      "id": 208,
+      "text": {
+        "en": "How do you feel about the statement: 'Everyone is the architect of their own fortune – solidarity just makes people lazy.'?",
+        "de": "Wie stehst du zu der Aussage: 'Jeder ist seines Glückes Schmied – Solidarität macht nur faul.'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Completely disagree", "de": "Kompletter Quatsch", "points": 100 },
+        { "en": "Agree", "de": "Stimmt", "points": 0 }
+      ]
+    },
+    {
+      "id": 209,
+      "text": {
+        "en": "Would you give up personal success if it means everyone in the team succeeds together?",
+        "de": "Bist du eher bereit, im Team auf eigenen Erfolg zu verzichten, wenn dafür alle gemeinsam erfolgreich sind?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, team comes first", "de": "Team > Ich", "points": 100 },
+        { "en": "No, I come first", "de": "Ich > Team", "points": 0 }
+      ]
+    },
+    {
+      "id": 210,
+      "text": {
+        "en": "Have you ever helped a complete stranger even though you didn't have to?",
+        "de": "Hast du schon einmal für einen völlig fremden Menschen Partei ergriffen oder Hilfe geleistet, obwohl du überhaupt nicht musstest?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, I have", "de": "Schon getan", "points": 100 },
+        { "en": "No, never", "de": "Nie", "points": 0 }
+      ]
+    },
+    {
+      "id": 211,
+      "text": {
+        "en": "If a colleague made a mistake and is in trouble, would you stand up for them or keep your distance?",
+        "de": "Wenn ein Kollege Mist gebaut hat und Ärger droht, stehst du für ihn ein oder hältst du dich raus?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Stand up for them", "de": "Ja", "points": 100 },
+        { "en": "Keep out of it", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 212,
+      "text": {
+        "en": "When your team collects for someone in need, do you always contribute, even if money is tight?",
+        "de": "In deiner Abteilung wird gesammelt, weil jemand Hilfe braucht. Bist du immer dabei, auch wenn es bei dir knapp ist?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Always contribute", "de": "Immer dabei", "points": 100 },
+        { "en": "Never", "de": "Nie", "points": 0 }
+      ]
+    },
+    {
+      "id": 213,
+      "text": {
+        "en": "On a scale from 0–100: How much do you live the motto 'One for all, all for one' in daily life?",
+        "de": "“Einer für alle, alle für einen” – wie sehr lebst du dieses Motto im Alltag?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 214,
+      "text": {
+        "en": "A colleague at a company outing forgot their wallet. Do you pay for them or hope someone else helps?",
+        "de": "Bei einem Betriebsausflug merkt ein Kollege, dass er sein Portemonnaie vergessen hat. Lädst du ihn ein oder hoffst du, dass jemand anders hilft?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Invite them", "de": "Einladen", "points": 100 },
+        { "en": "Hope someone else does", "de": "Hoffen", "points": 0 }
+      ]
+    },
+    {
+      "id": 215,
+      "text": {
+        "en": "In the subway, someone calls for help with a stroller. What do you do?",
+        "de": "In der U-Bahn ruft jemand: „Kann mir bitte wer helfen, den Kinderwagen die Treppe hochzutragen?“ Was tust du?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Immediately help", "de": "Sofort helfen", "points": 100 },
+        { "en": "Wait to see if others help", "de": "Erst mal umsehen", "points": 50 },
+        { "en": "Avoid eye contact", "de": "Vermeiden", "points": 0 }
+      ]
+    },
+    {
+      "id": 216,
+      "text": {
+        "en": "If all colleagues do overtime for a project, are you there too or do you leave on time?",
+        "de": "Wenn alle Kollegen Überstunden schieben: Bist du solidarisch dabei oder gehst du pünktlich?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Stay and help", "de": "Dabei", "points": 100 },
+        { "en": "Leave on time", "de": "Pünktlich weg", "points": 0 }
+      ]
+    },
+    {
+      "id": 217,
+      "text": {
+        "en": "How often do you actively volunteer or donate for a good cause?",
+        "de": "Wie oft engagierst du dich aktiv für wohltätige oder soziale Zwecke?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 218,
+      "text": {
+        "en": "Your best friend loses their job. Do you offer financial support, a place to sleep, or only moral support?",
+        "de": "Dein bester Freund verliert unerwartet seinen Job. Bietest du ihm finanzielle Hilfe, ein Bett auf dem Sofa oder nur moralische Unterstützung an?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Financial support", "de": "Finanziell helfen", "points": 100 },
+        { "en": "Only moral support", "de": "Nur moralisch", "points": 50 },
+        { "en": "No support", "de": "Gar nicht", "points": 0 }
+      ]
+    },
+    {
+      "id": 219,
+      "text": {
+        "en": "Would you take the blame in front of your team to protect others?",
+        "de": "Würdest du vor deinem Team die Schuld auf dich nehmen, um andere zu schützen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 220,
+      "text": {
+        "en": "On a scale from 0–100: How likely are you to participate in a solidarity campaign (e.g. donate a vacation day for a colleague in need)?",
+        "de": "Wie wahrscheinlich machst du bei einer Solidaritätsaktion (z.B. Urlaubstag spenden) mit?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    }
+  ]
+}
+  ]
+}
+,
+{
+  "criterion": { "en": "Ecological Sustainability", "de": "Ökologische Nachhaltigkeit" },
+  "questions": [
+    {
+      "id": 301,
+      "text": {
+        "en": "How important is it to you personally to minimize your ecological footprint?",
+        "de": "Wie wichtig ist dir persönlich, deinen ökologischen Fußabdruck so klein wie möglich zu halten?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 302,
+      "text": {
+        "en": "Would you give up comfort (cold showers, using your car less) for climate protection?",
+        "de": "Würdest du für den Klimaschutz auf Bequemlichkeit verzichten – z.B. kalt duschen oder das Auto stehen lassen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 303,
+      "text": {
+        "en": "When shopping, do you tend to choose the bio option without plastic packaging, or the cheaper plastic-wrapped product?",
+        "de": "Beim Einkaufen – greifst du eher zur Bio-Option ohne Plastik, oder gewinnt das günstigere, eingeschweißte Produkt?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Bio option", "de": "Bio-Option", "points": 100 },
+        { "en": "Cheaper plastic-wrapped", "de": "Plastik", "points": 0 }
+      ]
+    },
+    {
+      "id": 304,
+      "text": {
+        "en": "You can choose between a long-distance flight to Bali or a hiking holiday close to home. Would your environmental conscience make you skip the flight?",
+        "de": "Du hast die Wahl: Fernreise oder Wanderurlaub im Harz. Würde dein ökologisches Gewissen dich zur Nahreise bewegen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Would skip the flight", "de": "Verzichte auf Flug", "points": 100 },
+        { "en": "Would fly", "de": "Fliege", "points": 0 }
+      ]
+    },
+    {
+      "id": 305,
+      "text": {
+        "en": "Do you separate your waste so meticulously that you have five different bins in your kitchen?",
+        "de": "Trennst du deinen Müll so akribisch, dass du fünf verschiedene Mülleimer in der Küche hast?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Meticulously", "de": "Akribisch", "points": 100 },
+        { "en": "Not at all", "de": "Gar nicht", "points": 0 }
+      ]
+    },
+    {
+      "id": 306,
+      "text": {
+        "en": "Would you pay much more for a product if it is proven to be more sustainable?",
+        "de": "Wärst du bereit, deutlich mehr für ein nachhaltigeres Produkt zu zahlen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 307,
+      "text": {
+        "en": "Your favorite restaurant suddenly only serves food on disposable plastic plates. Would you boycott it?",
+        "de": "Dein Lieblingsrestaurant serviert nur noch auf Einweg-Plastikgeschirr. Boykottierst du es?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Boycott", "de": "Boykottieren", "points": 100 },
+        { "en": "Doesn’t bother me", "de": "Ist mir egal", "points": 0 }
+      ]
+    },
+    {
+      "id": 308,
+      "text": {
+        "en": "Have you ever picked up someone else’s litter to put it in the bin, even though it wasn’t yours?",
+        "de": "Hast du schon mal demonstrativ Müll aufgehoben, der nicht deiner war?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 309,
+      "text": {
+        "en": "How do you react when someone calls climate protection 'hysteria'?",
+        "de": "Wie reagierst du, wenn jemand Klimaschutz als 'Hysterie' abtut?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Roll eyes, avoid debate", "de": "Augenrollen", "points": 0 },
+        { "en": "Give a mini-lecture", "de": "Mini-Vortrag", "points": 100 },
+        { "en": "Agree or don’t care", "de": "Zustimmen/egal", "points": 0 }
+      ]
+    },
+    {
+      "id": 310,
+      "text": {
+        "en": "A friend brags about their new SUV. Do you congratulate them, or invite them to a climate documentary night?",
+        "de": "Ein Freund prahlt mit neuem SUV. Gratulierst du, oder lädst du ihn zu einer Klima-Doku ein?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Invite to documentary night", "de": "Doku-Nacht", "points": 100 },
+        { "en": "Congratulate", "de": "Gratulieren", "points": 0 }
+      ]
+    },
+    {
+      "id": 311,
+      "text": {
+        "en": "How likely are you to change your consumption (eat less meat, shop less online) for sustainability?",
+        "de": "Wie groß ist die Wahrscheinlichkeit, dass du dein Konsumverhalten für Nachhaltigkeit änderst?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Very likely", "de": "Sehr wahrscheinlich", "points": 100 },
+        { "en": "Not likely", "de": "Eher nicht", "points": 0 }
+      ]
+    },
+    {
+      "id": 312,
+      "text": {
+        "en": "Do you regularly remind friends or colleagues about environmental issues?",
+        "de": "Erinnerst du regelmäßig Freunde oder Kollegen an Umweltsünden?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Often", "de": "Oft", "points": 100 },
+        { "en": "Never", "de": "Nie", "points": 0 }
+      ]
+    },
+    {
+      "id": 313,
+      "text": {
+        "en": "If you could test drive an electric car for a sustainable future, but would have to fill out a long survey, would you do it?",
+        "de": "Würdest du ein Elektroauto testen, wenn du danach einen langen Fragebogen ausfüllen müsstest?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 314,
+      "text": {
+        "en": "On a scale from 0 to 100: How consistently do you practice the sustainability you demand from others?",
+        "de": "Auf einer Skala von 0 bis 100: Wie konsequent lebst du die Nachhaltigkeit, die du von anderen erwartest?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 315,
+      "text": {
+        "en": "Would you get involved if an old tree was going to be cut down in your town (e.g. collect signatures, protest)?",
+        "de": "Würdest du dich politisch einmischen, wenn ein alter Baum gefällt werden soll – Unterschriften sammeln, protestieren?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 316,
+      "text": {
+        "en": "For transportation: Do you use bike/public transport even in bad weather, or do you usually drive?",
+        "de": "Bei Fortbewegung: Nutzt du Rad/ÖPNV auch bei schlechtem Wetter, oder fährst du meist Auto?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, regularly", "de": "Ja, regelmäßig", "points": 100 },
+        { "en": "Sometimes", "de": "Manchmal", "points": 50 },
+        { "en": "Never", "de": "Nie", "points": 0 }
+      ]
+    },
+    {
+      "id": 317,
+      "text": {
+        "en": "Do you invest time and money in eco-friendly gadgets or energy-saving technology?",
+        "de": "Findest du Gefallen an technischen Spielereien, die Energie sparen, und würdest Geld investieren?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 318,
+      "text": {
+        "en": "How important is it to you that future generations find an intact environment?",
+        "de": "Wie wichtig ist es dir, dass zukünftige Generationen eine intakte Umwelt vorfinden?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 319,
+      "text": {
+        "en": "If there was a strict climate protection rule that restricts you personally (e.g. speed limit), would you support it?",
+        "de": "Angenommen, es gäbe eine Klimaschutzregel, die dich einschränkt (z.B. Tempolimit). Würdest du sie unterstützen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 320,
+      "text": {
+        "en": "When you see someone littering, do you speak up, silently pick it up, or ignore it?",
+        "de": "Wenn du im Alltag jemanden siehst, der Müll in die Natur wirft, sprichst du die Person an, sammelst still auf, oder ignorierst es?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Speak up", "de": "Ansprechen", "points": 100 },
+        { "en": "Silently pick up", "de": "Still aufsammeln", "points": 50 },
+        { "en": "Ignore", "de": "Ignorieren", "points": 0 }
+      ]
+    }
+  ]
+}
+{
+  "criterion": { "en": "Social Justice", "de": "Soziale Gerechtigkeit" },
+  "questions": [
+    {
+      "id": 401,
+      "text": {
+        "en": "How important is it for you to live in a society where the gap between rich and poor is as small as possible?",
+        "de": "Wie wichtig ist dir, in einer Gesellschaft zu leben, in der die Schere zwischen Arm und Reich möglichst klein ist?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 402,
+      "text": {
+        "en": "Would you be willing to give up part of your own salary so the lowest wages in your company can be raised?",
+        "de": "Wärst du bereit, auf einen Teil deines Gehalts zu verzichten, damit die niedrigsten Löhne in deiner Firma steigen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 403,
+      "text": {
+        "en": "If you notice someone is being disadvantaged because of their origin or appearance, do you intervene?",
+        "de": "Wenn du merkst, dass jemand wegen Herkunft oder Aussehen benachteiligt wird, greifst du ein?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 404,
+      "text": {
+        "en": "In Monopoly, would you voluntarily give money to a nearly bankrupt player to make the game fairer?",
+        "de": "Gibst du in Monopoly freiwillig Geld ab, damit es fairer zugeht?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 405,
+      "text": {
+        "en": "Do you find quota regulations (e.g. women's quota in management) useful for justice, or are you critical?",
+        "de": "Findest du Quotenregelungen (z.B. Frauenquote) sinnvoll für mehr Gerechtigkeit, oder eher kritisch?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Useful", "de": "Sinnvoll", "points": 100 },
+        { "en": "Critical", "de": "Kritisch", "points": 0 }
+      ]
+    },
+    {
+      "id": 406,
+      "text": {
+        "en": "Would you boycott your favorite fashion brand if you found out it uses child labor?",
+        "de": "Würdest du deine Lieblingsmarke boykottieren, wenn du erfährst, dass dort Kinderarbeit herrscht?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 407,
+      "text": {
+        "en": "How much does it bother you when media only show stereotypes and ignore minorities?",
+        "de": "Wie sehr stört es dich, wenn Medien Stereotype bedienen und Minderheiten ignorieren?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Bothers me a lot", "de": "Sehr", "points": 100 },
+        { "en": "Doesn’t bother me", "de": "Gar nicht", "points": 0 }
+      ]
+    },
+    {
+      "id": 408,
+      "text": {
+        "en": "What is more important: obeying laws or acting justly? Would you break a rule to help someone?",
+        "de": "Was ist dir wichtiger: Gesetze einhalten oder Gerechtigkeit? Würdest du eine Regel brechen, um zu helfen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Justice over law", "de": "Gerechtigkeit", "points": 100 },
+        { "en": "Law over everything", "de": "Gesetz", "points": 0 }
+      ]
+    },
+    {
+      "id": 409,
+      "text": {
+        "en": "Would you accept higher taxes if the money was proven to go to education, health, and poverty reduction?",
+        "de": "Würdest du höhere Steuern akzeptieren, wenn sie nachweislich für Bildung, Gesundheit und Armutsbekämpfung genutzt werden?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 410,
+      "text": {
+        "en": "Someone claims 'Discrimination no longer exists.' What do you do?",
+        "de": "Jemand behauptet: 'Diskriminierung gibt’s nicht mehr.' Wie reagierst du?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Clearly disagree and give examples", "de": "Deutlich widersprechen", "points": 100 },
+        { "en": "Roll eyes, but stay silent", "de": "Augenrollen, aber schweigen", "points": 50 },
+        { "en": "Agree", "de": "Zustimmen", "points": 0 }
+      ]
+    },
+    {
+      "id": 411,
+      "text": {
+        "en": "You’re hiring: candidate with top degree from a rich family vs. self-made with average grades. Who do you prefer if both are equal otherwise?",
+        "de": "Du stellst ein: Top-Abschluss aus reichem Haus vs. solider Kandidat mit schwierigem Hintergrund. Wen bevorzugst du?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Self-made", "de": "Selbst gemacht", "points": 100 },
+        { "en": "No preference", "de": "Neutral", "points": 50 },
+        { "en": "Rich background", "de": "Reich bevorzugt", "points": 0 }
+      ]
+    },
+    {
+      "id": 412,
+      "text": {
+        "en": "Do tax loopholes for the rich annoy you, or do you think 'well done, if you can do it'?",
+        "de": "Regst du dich über Steuerschlupflöcher für Reiche auf, oder denkst du: 'Wer kann, der kann'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Annoys me", "de": "Ärgert mich", "points": 100 },
+        { "en": "Fine for them", "de": "Wer kann, der kann", "points": 0 }
+      ]
+    },
+    {
+      "id": 413,
+      "text": {
+        "en": "If there’s a protest for justice/equality, are you on the street or in solidarity from the couch?",
+        "de": "Gehst du für Gerechtigkeit auf die Straße, oder bist du nur auf dem Sofa solidarisch?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "On the street", "de": "Auf der Straße", "points": 100 },
+        { "en": "From the couch", "de": "Sofa", "points": 0 }
+      ]
+    },
+    {
+      "id": 414,
+      "text": {
+        "en": "On a scale from 0–100: How much do you believe 'Effort should be rewarded fairly'?",
+        "de": "Auf einer Skala von 0–100: Wie sehr glaubst du an das Prinzip 'Leistung wird gerecht belohnt'?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 415,
+      "text": {
+        "en": "Would you describe yourself as someone who always stands up for underdogs?",
+        "de": "Beschreibst du dich als jemanden, der immer für Underdogs eintritt?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 416,
+      "text": {
+        "en": "How important is it to you that every voice is heard and decisions are shared fairly?",
+        "de": "Wie wichtig ist dir, dass jede Stimme gehört und Entscheidungen fair aufgeteilt werden?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Very important", "de": "Sehr wichtig", "points": 100 },
+        { "en": "Not important", "de": "Nicht wichtig", "points": 0 }
+      ]
+    },
+    {
+      "id": 417,
+      "text": {
+        "en": "If you organize a group trip: Do you insist on a program affordable for everyone, or 'whoever wants to join, must pay'?",
+        "de": "Planst du eine Reise für alle bezahlbar, oder müssen alle mitziehen, egal was es kostet?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Affordable for all", "de": "Bezahlbar für alle", "points": 100 },
+        { "en": "Expensive is fine", "de": "Teuer durchziehen", "points": 0 }
+      ]
+    },
+    {
+      "id": 418,
+      "text": {
+        "en": "Do you find it fair that top managers earn hundreds of times more than regular employees?",
+        "de": "Findest du es gerecht, wenn Topmanager das 100-fache verdienen wie normale Angestellte?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Not acceptable", "de": "Inakzeptabel", "points": 100 },
+        { "en": "Fair", "de": "Fair", "points": 0 }
+      ]
+    },
+    {
+      "id": 419,
+      "text": {
+        "en": "In an ideal world: What is more important to you: equal opportunities or equal outcomes?",
+        "de": "Was ist dir wichtiger: Chancengleichheit oder Ergebnisausgleich?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Both equally important", "de": "Beides hoch", "points": 100 },
+        { "en": "Doesn't matter", "de": "Egal", "points": 0 }
+      ]
+    },
+    {
+      "id": 420,
+      "text": {
+        "en": "Would you stand up for an unpopular but more just measure, even against resistance?",
+        "de": "Würdest du dich für eine unpopuläre, aber gerechtere Maßnahme einsetzen, auch gegen Widerstand?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    }
+  ]
+}
+,
+{
+  "criterion": { "en": "Democratic Participation / Transparency", "de": "Demokratische Mitbestimmung / Transparenz" },
+  "questions": [
+    {
+      "id": 501,
+      "text": {
+        "en": "How important is it for you to have a say in decisions that affect you?",
+        "de": "Wie wichtig ist dir, bei Entscheidungen, die dich betreffen, ein Mitspracherecht zu haben?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 502,
+      "text": {
+        "en": "If your company introduces a big change without consulting staff: Are you secretly glad to skip a long meeting, or are you annoyed about the lack of participation and transparency?",
+        "de": "Wenn in deiner Firma eine große Änderung eingeführt wird, ohne die Mitarbeitenden zu fragen: Bist du heimlich froh, ein langes Meeting zu sparen, oder ärgerst du dich über die fehlende Mitbestimmung und Transparenz?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Annoyed, I want participation", "de": "Ärgerlich, will Mitbestimmung", "points": 100 },
+        { "en": "Secretly glad, no meeting", "de": "Heimlich froh, kein Meeting", "points": 0 }
+      ]
+    },
+    {
+      "id": 503,
+      "text": {
+        "en": "Would you voluntarily take part in a citizens’ forum or town hall meeting to help shape local politics?",
+        "de": "Würdest du freiwillig an einem Bürgerforum oder einer Bürgerversammlung teilnehmen, um die lokale Politik mitzugestalten?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 504,
+      "text": {
+        "en": "In a team meeting: Are you the one who asks many questions and wants to know how decisions are made (transparency fan), or do you sit quietly and hope not to be noticed?",
+        "de": "Im Teammeeting: Stellst du viele Fragen, willst alles genau wissen (Transparenz-Fan), oder sitzt du lieber still und hoffst, nicht aufzufallen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Ask a lot / transparency fan", "de": "Fragen, Transparenzfan", "points": 100 },
+        { "en": "Sit quietly / hope not noticed", "de": "Still, hoffen nicht aufzufallen", "points": 0 }
+      ]
+    },
+    {
+      "id": 505,
+      "text": {
+        "en": "In politics: Do you want to know all the details of decision-making (even boring committee reports), or is the news summary enough?",
+        "de": "In der Politik: Willst du alle Details von Entscheidungsprozessen kennen (auch langweilige Ausschussprotokolle), oder reicht dir die Nachrichtenzusammenfassung?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Want all details", "de": "Will alle Details", "points": 100 },
+        { "en": "Summary is enough", "de": "Zusammenfassung reicht", "points": 0 }
+      ]
+    },
+    {
+      "id": 506,
+      "text": {
+        "en": "Do you really read privacy policies and terms & conditions, or just click accept?",
+        "de": "Liest du Datenschutzerklärungen und AGB wirklich durch, oder klickst du einfach auf „Akzeptieren“?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Read", "de": "Lese", "points": 100 },
+        { "en": "Just accept", "de": "Klicke einfach", "points": 0 }
+      ]
+    },
+    {
+      "id": 507,
+      "text": {
+        "en": "You notice your boss always puts his supervisor in CC on emails. Do you address this ‘transparency gap’, or is it none of your business?",
+        "de": "Du bemerkst, dass dein Chef E-Mails immer heimlich in CC an seine/n Vorgesetzten schickt. Sprichst du ihn auf diese 'Transparenzlücke' an oder ist es dir egal?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Address it", "de": "Spreche es an", "points": 100 },
+        { "en": "Don’t care", "de": "Egal", "points": 0 }
+      ]
+    },
+    {
+      "id": 508,
+      "text": {
+        "en": "How important is it for you to understand how decisions are made (at work, in clubs, in politics)?",
+        "de": "Wie wichtig ist es dir nachzuvollziehen, wie Entscheidungen zustande kommen (im Job, Verein, Politik)?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Very important", "de": "Sehr wichtig", "points": 100 },
+        { "en": "Not important", "de": "Nicht wichtig", "points": 0 }
+      ]
+    },
+    {
+      "id": 509,
+      "text": {
+        "en": "Have you ever used your right to information (e.g. requested official data or critically asked for details) to make things more transparent?",
+        "de": "Hast du schon mal aktiv dein Recht auf Information genutzt, um Dinge transparenter zu machen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 510,
+      "text": {
+        "en": "If you lose a vote, do you accept the majority, or do you try to overturn the result afterwards?",
+        "de": "Wenn du eine Abstimmung verlierst, akzeptierst du das Ergebnis, oder versuchst du, die Entscheidung doch noch zu kippen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Accept", "de": "Akzeptiere", "points": 100 },
+        { "en": "Try to overturn", "de": "Versuche zu kippen", "points": 0 }
+      ]
+    },
+    {
+      "id": 511,
+      "text": {
+        "en": "Would you put in extra time and effort to ensure more transparency (e.g. write or read minutes, ask questions), even if some call you the ‘transparency guy’?",
+        "de": "Würdest du extra Zeit und Mühe investieren, um für mehr Transparenz zu sorgen (Protokolle schreiben, nachfragen), auch wenn manche dich den 'Transparenz-Beauftragten' nennen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 512,
+      "text": {
+        "en": "‘Secrecy is never good.’ How much do you agree? (0 = 'Some things should stay secret', 100 = 'Sunlight is the best disinfectant!')",
+        "de": "„Geheimniskrämerei ist nie gut.“ – Wie sehr stimmst du zu? (0 = 'Manches sollte geheim bleiben', 100 = 'Sonnenlicht ist das beste Desinfektionsmittel!')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 513,
+      "text": {
+        "en": "Imagine a local referendum, e.g. building a new park. Are you sure to participate and inform your neighbors, or leave it to others?",
+        "de": "Stell dir vor, in deinem Wohnort gibt’s einen Bürgerentscheid – gehst du wählen, informierst die Nachbarn, oder überlässt du das anderen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Participate & inform", "de": "Gehe wählen, informiere", "points": 100 },
+        { "en": "Leave to others", "de": "Überlasse anderen", "points": 0 }
+      ]
+    },
+    {
+      "id": 514,
+      "text": {
+        "en": "In your private life: Are you very open with new people right away, or do you share personal things only gradually?",
+        "de": "Bist du im Privatleben sofort sehr offen, oder teilst du Privates lieber nur häppchenweise?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Very open", "de": "Sehr offen", "points": 100 },
+        { "en": "Gradual/closed", "de": "Verschlossen", "points": 0 }
+      ]
+    },
+    {
+      "id": 515,
+      "text": {
+        "en": "At club meetings or parents' evenings: Are you the one who wants to know where every cent goes, or do you avoid asking questions?",
+        "de": "Beim Elternabend oder Vereinsversammlung: Willst du wissen, wo jeder Cent hingeht, oder vermeidest du Nachfragen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Ask everything", "de": "Frage alles", "points": 100 },
+        { "en": "Avoid asking", "de": "Vermeide Nachfragen", "points": 0 }
+      ]
+    },
+    {
+      "id": 516,
+      "text": {
+        "en": "How do you react when transparency comes with discomfort (e.g. publishing pay bands)?",
+        "de": "Wie reagierst du, wenn Transparenz unbequem wird (z.B. wenn Gehaltsbänder veröffentlicht werden)?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Good, fair and transparent", "de": "Gut, fair und transparent", "points": 100 },
+        { "en": "Better not touch it", "de": "Lieber nicht anfassen", "points": 0 }
+      ]
+    },
+    {
+      "id": 517,
+      "text": {
+        "en": "If someone suggests majority voting in a meeting: Do you trust the majority, or do you try to convince everyone of your idea?",
+        "de": "Wenn jemand in einem Meeting Abstimmung vorschlägt: Vertraust du der Mehrheit, oder versuchst du, die Gruppe doch von deiner Idee zu überzeugen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Trust the majority", "de": "Vertraue Mehrheit", "points": 100 },
+        { "en": "Try to convince group", "de": "Überzeuge Gruppe", "points": 0 }
+      ]
+    },
+    {
+      "id": 518,
+      "text": {
+        "en": "If you hear about grievances in your organization (e.g. nepotism, non-transparent promotions): Do you address it openly, or withdraw quietly?",
+        "de": "Wenn du von Missständen (z.B. Vetternwirtschaft) hörst: Sprichst du es offen an, oder ziehst du dich still zurück?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Address openly", "de": "Sprich offen an", "points": 100 },
+        { "en": "Withdraw quietly", "de": "Zieh dich zurück", "points": 0 }
+      ]
+    },
+    {
+      "id": 519,
+      "text": {
+        "en": "How responsible do you feel to be informed and involved so that democracy works? (0 = 'Not at all', 100 = 'Very – democracy is not a spectator sport!')",
+        "de": "Wie sehr fühlst du dich verantwortlich, dich politisch zu informieren und einzubringen, damit die Demokratie funktioniert? (0 = 'Überhaupt nicht', 100 = 'Sehr – Demokratie ist kein Zuschauersport!')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 520,
+      "text": {
+        "en": "On a scale from 0–100: How big is your need for transparency in all areas of life?",
+        "de": "Auf einer Skala von 0–100: Wie groß ist dein Bedürfnis nach Transparenz in allen Lebenslagen?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    }
+  ]
+}
+,
+{
+  "criterion": { "en": "Cost", "de": "Kosten" },
+  "questions": [
+    {
+      "id": 601,
+      "text": {
+        "en": "How important is cost as a criterion in your decisions? (0 = 'Doesn’t matter at all', 100 = 'Cost is king – nothing works without looking at money')",
+        "de": "Wie wichtig ist dir bei Entscheidungen das Kriterium Kosten? (0 = 'Spielt keine Rolle, Geld ist zum Ausgeben da.', 100 = 'Kosten sind König – ohne Blick aufs Geld läuft gar nichts.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 602,
+      "text": {
+        "en": "Would you quit a project close to your heart if it went over budget?",
+        "de": "Würdest du ein Projekt, das dir eigentlich am Herzen liegt, abbrechen, wenn es das Budget sprengt?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "No, I would continue", "de": "Nein, ich würde weitermachen", "points": 100 },
+        { "en": "Yes, I would stop", "de": "Ja, ich würde abbrechen", "points": 0 }
+      ]
+    },
+    {
+      "id": 603,
+      "text": {
+        "en": "Do you go to three different stores or spend 20 minutes online comparing prices to save €5?",
+        "de": "Bist du der Typ, der drei Läden abklappert oder 20 Minuten im Internet Preisvergleiche anstellt, um 5 € zu sparen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, always compare", "de": "Ja, immer vergleichen", "points": 100 },
+        { "en": "No, I buy in the first store", "de": "Nein, ich kaufe im ersten Laden", "points": 0 }
+      ]
+    },
+    {
+      "id": 604,
+      "text": {
+        "en": "Do you feel guilty when spending money on yourself (e.g., buying a gadget you don’t need)?",
+        "de": "Hast du ein schlechtes Gewissen, wenn du Geld für dich verschwendest (z.B. ein teures Gadget kaufst, das du nicht brauchst)?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 605,
+      "text": {
+        "en": "If you could save 10% of costs in a project by accepting lower quality, would you advocate for the saving?",
+        "de": "Angenommen, in einem Projekt könnte man durch eine Abkürzung 10% der Kosten sparen, aber das Endergebnis wäre qualitativ etwas schlechter. Würdest du für die Sparmaßnahme plädieren?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, save costs", "de": "Ja, sparen", "points": 100 },
+        { "en": "No, quality first", "de": "Nein, Qualität zuerst", "points": 0 }
+      ]
+    },
+    {
+      "id": 606,
+      "text": {
+        "en": "Would you rather start a crowdfunding campaign for a heartfelt project than finance it all by yourself?",
+        "de": "Würdest du eher ein Crowdfunding starten, um ein Herzensprojekt zu finanzieren, als es komplett aus eigener Tasche zu bezahlen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Crowdfunding", "de": "Crowdfunding", "points": 100 },
+        { "en": "Pay myself", "de": "Selber zahlen", "points": 0 }
+      ]
+    },
+    {
+      "id": 607,
+      "text": {
+        "en": "Do you buy special offers immediately, even if you didn’t plan to buy the item?",
+        "de": "Greifst du bei Sonderangeboten sofort zu – auch wenn du den Artikel gar nicht auf deiner Einkaufsliste hattest?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, always!", "de": "Ja, immer!", "points": 100 },
+        { "en": "No, only if needed", "de": "Nein, nur wenn nötig", "points": 0 }
+      ]
+    },
+    {
+      "id": 608,
+      "text": {
+        "en": "At a restaurant: Do you choose what you want most, or do you look at the price first?",
+        "de": "Im Restaurant: Wählst du das Gericht, das dich am meisten anlacht, oder schaust du zuerst auf den Preis, bevor du entscheidest?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "What I want", "de": "Was ich will", "points": 100 },
+        { "en": "Look at price", "de": "Preis entscheidet", "points": 0 }
+      ]
+    },
+    {
+      "id": 609,
+      "text": {
+        "en": "You organize a party on a budget. Do you spend more so everyone is well cared for, or tell guests to bring their own snacks?",
+        "de": "Du organisierst eine Party mit begrenztem Budget. Gibst du lieber etwas mehr aus, damit alle bestens versorgt sind, oder sagst du den Gästen: 'Bringt bitte eigene Snacks mit – Budget!'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Spend more", "de": "Mehr ausgeben", "points": 100 },
+        { "en": "Guests bring snacks", "de": "Snacks selbst mitbringen", "points": 0 }
+      ]
+    },
+    {
+      "id": 610,
+      "text": {
+        "en": "On a scale from 0 to 100: Are you a penny pincher or a generous spender?",
+        "de": "Auf einer Skala von 0-100: Wo liegst du zwischen 'Pfennigfuchser' und 'Großzügiger Verschwender'?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 611,
+      "text": {
+        "en": "Would you end or not start an otherwise great project if it becomes much more expensive than planned?",
+        "de": "Würdest du ein ansonsten tolles Projekt beenden oder gar nicht erst starten, wenn abzusehen ist, dass es deutlich teurer wird als geplant?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, end/not start", "de": "Ja, beenden/nicht starten", "points": 100 },
+        { "en": "No, hope it’s worth it", "de": "Nein, hoffe es lohnt sich", "points": 0 }
+      ]
+    },
+    {
+      "id": 612,
+      "text": {
+        "en": "Do you pay bills and fines immediately, or do you wait until the last minute?",
+        "de": "Zahlst du Rechnungen und Strafzettel sofort, oder wartest du immer bis kurz vor knapp?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Immediately", "de": "Sofort", "points": 100 },
+        { "en": "Last minute", "de": "Kurz vor knapp", "points": 0 }
+      ]
+    },
+    {
+      "id": 613,
+      "text": {
+        "en": "Would you use your smartphone two years longer than ‘fashionable’ just to save money?",
+        "de": "Würdest du dein Smartphone zwei Jahre länger nutzen, als 'technisch modisch' ist, nur um Geld zu sparen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, keep longer", "de": "Ja, länger nutzen", "points": 100 },
+        { "en": "No, always latest", "de": "Nein, immer das Neueste", "points": 0 }
+      ]
+    },
+    {
+      "id": 614,
+      "text": {
+        "en": "You find €50 on the street. Do you donate it, share it, or keep it for yourself?",
+        "de": "Du findest 50 € auf der Straße. Spendest du das Geld, teilst es mit jemand Bedürftigem – oder steckst du es in deine eigene Kasse für Spaßdinge?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Donate", "de": "Spenden", "points": 100 },
+        { "en": "Share", "de": "Teilen", "points": 50 },
+        { "en": "Keep", "de": "Behalten", "points": 0 }
+      ]
+    },
+    {
+      "id": 615,
+      "text": {
+        "en": "Do you pay more for bio/fair trade products, green energy, etc., or does the price often win?",
+        "de": "Zahlst du gerne einen Aufpreis für Bio-/Fair-Trade-Produkte, Ökostrom etc., oder gewinnt oft doch der Preis?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Pay more for values", "de": "Zahle mehr für Werte", "points": 100 },
+        { "en": "Price wins", "de": "Preis gewinnt", "points": 0 }
+      ]
+    },
+    {
+      "id": 616,
+      "text": {
+        "en": "Are you the one in meetings who always asks: 'And what does it cost?'",
+        "de": "Bist du in Meetings derjenige, der immer fragt: 'Und was kostet das?'"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 617,
+      "text": {
+        "en": "Do you plan your private budget meticulously or do you live by 'let’s see what’s left at the end of the month'?",
+        "de": "Planst du dein privates Budget akribisch oder lebst du nach dem Motto: 'Schau’n wir mal, was am Monatsende übrig ist'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Plan meticulously", "de": "Akribisch planen", "points": 100 },
+        { "en": "Let’s see", "de": "Schau’n wir mal", "points": 0 }
+      ]
+    },
+    {
+      "id": 618,
+      "text": {
+        "en": "When it comes to spending money: Are you spontaneous or strategic?",
+        "de": "Wenn es ums Geldausgeben geht: bist du spontan oder strategisch?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Spontaneous", "de": "Spontan", "points": 0 },
+        { "en": "Strategic", "de": "Strategisch", "points": 100 }
+      ]
+    },
+    {
+      "id": 619,
+      "text": {
+        "en": "At a group restaurant visit: Do you prefer to split the bill precisely, or do you sometimes pay extra or for all?",
+        "de": "Bei gemeinsamen Restaurantbesuchen: Bist du Fan von 'Rechnung splitten und jeder zahlt auf den Cent', oder zahlst du manchmal großzügig mehr oder für alle?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Split precisely", "de": "Genau splitten", "points": 0 },
+        { "en": "Generous, pay more", "de": "Großzügig zahlen", "points": 100 }
+      ]
+    },
+    {
+      "id": 620,
+      "text": {
+        "en": "Would you spend money on something that matches your values, even if it’s expensive and you have no direct benefit?",
+        "de": "Würdest du für etwas, das deinen persönlichen Werten entspricht, auch dann Geld ausgeben, wenn es objektiv teuer ist und du keinen direkten Nutzen hast?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, spend for values", "de": "Ja, für Werte zahlen", "points": 100 },
+        { "en": "No, not if no benefit", "de": "Nein, nicht ohne Nutzen", "points": 0 }
+      ]
+    }
+  ]
+}
+,
+{
+  "criterion": { "en": "Deadlines & Time Management", "de": "Termine & Zeitmanagement" },
+  "questions": [
+    {
+      "id": 701,
+      "text": {
+        "en": "How important is it to you to keep appointments and deadlines? (0 = 'Not at all', 100 = 'Punctuality is the courtesy of kings.')",
+        "de": "Wie wichtig ist dir, vereinbarte Termine einzuhalten? (0 = 'Überhaupt nicht – Zeit ist relativ!', 100 = 'Sehr wichtig – Pünktlichkeit ist die Höflichkeit der Könige.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 702,
+      "text": {
+        "en": "Would you sacrifice evenings or weekends for a project deadline, or is quality more important than punctuality?",
+        "de": "Würdest du für das Einhalten einer Projekt-Deadline notfalls Nachtschichten und Wochenenden opfern, oder sagst du: 'Qualität vor Eile – dann wird’s eben später fertig.'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Deadline first", "de": "Deadline wichtiger", "points": 100 },
+        { "en": "Quality first", "de": "Qualität wichtiger", "points": 0 }
+      ]
+    },
+    {
+      "id": 703,
+      "text": {
+        "en": "Are you usually early, punctual, or late? And does it stress you out? (0 = 'Always late, don't care', 100 = 'Always early, get nervous with less than 10min to spare')",
+        "de": "Bist du meist zu früh, pünktlich oder zu spät dran? (0 = 'Ich komme immer zu spät und es ist mir egal.', 100 = 'Ich bin immer überpünktlich und werde nervös, wenn ich weniger als 10 Minuten vor der Zeit da bin.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 704,
+      "text": {
+        "en": "If you’re 5 minutes late to an important meeting, do you feel awful and apologize repeatedly, or do you stay relaxed?",
+        "de": "Du kommst 5 Minuten zu spät zu einem wichtigen Treffen. Fühlst du dich furchtbar und entschuldigst dich mehrfach, oder nimmst du’s locker?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Awful, apologize", "de": "Furchtbar, entschuldigen", "points": 100 },
+        { "en": "Relaxed", "de": "Locker", "points": 0 }
+      ]
+    },
+    {
+      "id": 705,
+      "text": {
+        "en": "How do you feel when others are constantly late or miss deadlines? (0 = 'No problem', 100 = 'Makes me crazy!')",
+        "de": "Wie reagierst du innerlich, wenn andere ständig Termine überziehen oder Deadlines reißen? (0 = 'Kein Problem, kann passieren.', 100 = 'Ich werde wahnsinnig – das bringt meinen ganzen Plan durcheinander!')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 706,
+      "text": {
+        "en": "Would you prefer a less exciting but relaxed job if your current one is stressful due to deadlines?",
+        "de": "Würdest du einen etwas 'langweiligeren', aber entspannten Job bevorzugen, wenn dein aktueller zwar spannend ist, aber dich der ständige Termindruck fertig macht?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, relaxed job", "de": "Ja, entspannter", "points": 100 },
+        { "en": "No, prefer excitement", "de": "Nein, lieber spannend", "points": 0 }
+      ]
+    },
+    {
+      "id": 707,
+      "text": {
+        "en": "Do you plan your week with to-do lists and a calendar in detail, or do you go with the flow?",
+        "de": "Planst du deine Woche mit To-Do-Listen und Kalender bis ins Detail, oder lebst du eher in den Tag hinein?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Plan in detail", "de": "Genau planen", "points": 100 },
+        { "en": "Go with the flow", "de": "In den Tag leben", "points": 0 }
+      ]
+    },
+    {
+      "id": 708,
+      "text": {
+        "en": "At school/university: Were you always finished well before the deadline or a last-minute type?",
+        "de": "Erinnerst du dich an Schul- oder Uni-Zeiten: Hattest du Arbeiten und Referate immer lange vor Abgabetermin fertig – oder warst du der Last-Minute-Typ?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Early finisher", "de": "Fertig vor Termin", "points": 100 },
+        { "en": "Last minute", "de": "Last-Minute", "points": 0 }
+      ]
+    },
+    {
+      "id": 709,
+      "text": {
+        "en": "On a scale from 0-100: How strict are you about punctuality – for yourself and others?",
+        "de": "Auf einer Skala von 0-100: Wie streng bist du bei Pünktlichkeit – von dir selbst und von anderen?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 710,
+      "text": {
+        "en": "Would you deliver a project on time but with a few open issues, or prefer to be late but perfect?",
+        "de": "Wenn du wählen musst: Projekt pünktlich abliefern, aber mit ein paar offenen Baustellen oder eine Woche Verzug in Kauf nehmen, dafür alles perfekt fertig – wofür entscheidest du dich?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "On time", "de": "Pünktlich", "points": 100 },
+        { "en": "Perfect but late", "de": "Perfekt aber spät", "points": 0 }
+      ]
+    },
+    {
+      "id": 711,
+      "text": {
+        "en": "Have you ever missed a train or flight? Was it traumatic or do you take it in stride?",
+        "de": "Hast du schon mal einen Zug oder Flug verpasst? War das für dich ein traumatisches Erlebnis oder nimmst du es gelassen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Trauma!", "de": "Trauma!", "points": 100 },
+        { "en": "Easy going", "de": "Gelassen", "points": 0 }
+      ]
+    },
+    {
+      "id": 712,
+      "text": {
+        "en": "Gifts for birthdays or Christmas: Weeks in advance or last minute shopper?",
+        "de": "Geschenke zu Geburtstagen oder Weihnachten: Kaufst du sie Wochen im Voraus oder am Tag vorher im Shopping-Chaos?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Early", "de": "Früh", "points": 100 },
+        { "en": "Last minute", "de": "Last-Minute", "points": 0 }
+      ]
+    },
+    {
+      "id": 713,
+      "text": {
+        "en": "Would you rather take a train that leaves 5 minutes earlier (to arrive sooner), even if the next one is more comfortable?",
+        "de": "Würdest du lieber einen Zug nehmen, der 5 Minuten früher fährt, auch wenn der nächste Zug viel bequemer wäre?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Earlier train", "de": "Früher Zug", "points": 100 },
+        { "en": "More comfortable", "de": "Bequemer", "points": 0 }
+      ]
+    },
+    {
+      "id": 714,
+      "text": {
+        "en": "You’re in a meeting and time is running out. Do you remind everyone of the clock, or let it run over?",
+        "de": "Du sitzt in einem Meeting und merkst, dass die Zeit knapp wird. Erinnerst du alle an die Uhr oder lässt du das Meeting überziehen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Remind/End on time", "de": "Erinnern/Beenden", "points": 100 },
+        { "en": "Let overrun", "de": "Überziehen lassen", "points": 0 }
+      ]
+    },
+    {
+      "id": 715,
+      "text": {
+        "en": "Scheduling conflict: Family dinner vs. work meeting. Do you postpone family or cancel the work event?",
+        "de": "Terminkonflikt: Familienessen vs. beruflicher Extra-Termin. Verschiebst du das Familienessen oder sagst du den Job-Termin ab?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Family first", "de": "Familie zuerst", "points": 100 },
+        { "en": "Work first", "de": "Arbeit zuerst", "points": 0 }
+      ]
+    },
+    {
+      "id": 716,
+      "text": {
+        "en": "Do you like clear deadlines to get started, or do you prefer working without fixed end dates?",
+        "de": "Magst du klare Deadlines, um in die Gänge zu kommen, oder arbeitest du lieber ohne festen Endtermin?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Love deadlines", "de": "Liebe Deadlines", "points": 100 },
+        { "en": "No deadlines", "de": "Keine Deadlines", "points": 0 }
+      ]
+    },
+    {
+      "id": 717,
+      "text": {
+        "en": "How often do you look at the clock during the day? (0 = 'Rarely', 100 = 'All the time, I could wear it on my head')",
+        "de": "Wie oft schaust du am Tag auf die Uhr? (0 = 'Kaum – ich geh nach Gefühl.', 100 = 'Ständig, ich könnte die Uhr am Kopf tragen.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 718,
+      "text": {
+        "en": "If you have an invitation for 19:00, when do you arrive? Early, on time, or late?",
+        "de": "Wenn du eine Einladung um 19:00 hast, wann bist du da? Vor 19 Uhr, genau 19 Uhr oder später?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Early", "de": "Früh", "points": 100 },
+        { "en": "On time", "de": "Pünktlich", "points": 50 },
+        { "en": "Late", "de": "Spät", "points": 0 }
+      ]
+    },
+    {
+      "id": 719,
+      "text": {
+        "en": "Do you panic as a deadline approaches and work remains, or stay calm and trust it’ll get done?",
+        "de": "Gerätst du in Panik, wenn ein Abgabetermin näher rückt und noch Arbeit offen ist, oder bleibst du ruhig und denkst: 'Irgendwie geht’s sich schon aus'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Panic", "de": "Panik", "points": 100 },
+        { "en": "Stay calm", "de": "Ruhig", "points": 0 }
+      ]
+    },
+    {
+      "id": 720,
+      "text": {
+        "en": "On a scale from 0 to 100: How much do you control your time, and how much does time control you?",
+        "de": "Auf einer Skala von 0-100: Wie sehr bestimmst du die Zeit, und wie sehr bestimmt die Zeit dich?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    }
+  ]
+}
+,
+{
+  "criterion": { "en": "Quality & Objective Achievement", "de": "Qualität & Sachziele" },
+  "questions": [
+    {
+      "id": 801,
+      "text": {
+        "en": "How important is it to you to fully achieve the objective of a project? (0 = 'Not important, anything goes', 100 = 'Very important, anything less is failure.')",
+        "de": "Wie wichtig ist dir, bei Projekten das inhaltliche Sachziel voll zu erreichen? (0 = 'Nicht so wichtig, Hauptsache irgendwas kommt raus.', 100 = 'Sehr wichtig, alles andere ist Scheitern.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 802,
+      "text": {
+        "en": "Would you accept lower quality to save money or time, or do you prefer to spend more for thorough results?",
+        "de": "Würdest du Qualitätseinbußen in Kauf nehmen, um Kosten oder Zeit zu sparen? Oder sagst du: 'Lieber teurer und länger, aber dafür ordentlich gemacht.'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Accept lower quality", "de": "Qualitätseinbußen okay", "points": 0 },
+        { "en": "Thorough results", "de": "Lieber ordentlich", "points": 100 }
+      ]
+    },
+    {
+      "id": 803,
+      "text": {
+        "en": "Are you more of a perfectionist or is 'good enough' good enough for you?",
+        "de": "Bist du eher Perfektionist:in, oder reicht dir auch mal 'gut genug'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Perfectionist", "de": "Perfektionist:in", "points": 100 },
+        { "en": "Good enough", "de": "Gut genug", "points": 0 }
+      ]
+    },
+    {
+      "id": 804,
+      "text": {
+        "en": "Have you ever voluntarily redone work or invested extra time just to meet your own standards, even if nobody would notice the difference?",
+        "de": "Hast du schon mal freiwillig eine Arbeit neu gemacht oder viel extra Zeit investiert, obwohl niemand den Fehler bemerkt hätte – nur für deine eigenen Ansprüche?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes", "de": "Ja", "points": 100 },
+        { "en": "No", "de": "Nein", "points": 0 }
+      ]
+    },
+    {
+      "id": 805,
+      "text": {
+        "en": "How do you feel when someone says, 'That’s good enough' after a task is done? Relief or frustration?",
+        "de": "Wie fühlst du dich, wenn jemand bei einer erledigten Aufgabe sagt: 'Ach komm, das passt schon so.' – Erleichterung oder inneres Zähneknirschen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Relief", "de": "Erleichterung", "points": 0 },
+        { "en": "Frustration", "de": "Frustration", "points": 100 }
+      ]
+    },
+    {
+      "id": 806,
+      "text": {
+        "en": "Would you accept a compromise that misses the original goal, just to stick to time and budget?",
+        "de": "Würdest du einen Kompromiss eingehen, der das ursprüngliche Ziel verfehlt, nur um Zeit und Budget einzuhalten?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Accept compromise", "de": "Kompromiss akzeptieren", "points": 0 },
+        { "en": "Stick to original goal", "de": "Sachziel wichtiger", "points": 100 }
+      ]
+    },
+    {
+      "id": 807,
+      "text": {
+        "en": "When baking for friends: Do you cut off burnt edges and decorate for perfection, or serve it as it is?",
+        "de": "Backst du für Freunde: Schneidest du angebrannte Ränder weg und dekorierst für Perfektion, oder servierst du den Kuchen mit kleinen Schönheitsfehlern?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Perfect", "de": "Perfekt", "points": 100 },
+        { "en": "Serve as is", "de": "So lassen", "points": 0 }
+      ]
+    },
+    {
+      "id": 808,
+      "text": {
+        "en": "Are you the kind of developer who fixes even the 100th little bug for perfection, or let small things slide if nobody cares?",
+        "de": "Software-Analogie: Bist du der Entwickler:in, der auch den 100. kleinen Bug noch ausmerzt, oder lässt du kleine Fehler, wenn niemand sie bemerkt?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Fix every bug", "de": "Jeden Bug fixen", "points": 100 },
+        { "en": "Let it slide", "de": "Fünf gerade sein lassen", "points": 0 }
+      ]
+    },
+    {
+      "id": 809,
+      "text": {
+        "en": "On a scale from 0-100: 'Quality over quantity' – how much do you live by this in your work and life?",
+        "de": "Auf einer Skala von 0-100: 'Qualität vor Quantität.' – Wie sehr lebst du das in deiner Arbeit und deinem Leben?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 810,
+      "text": {
+        "en": "How proud does it make you to achieve a goal exactly as planned? (0 = 'Don’t care', 100 = 'That’s the best!')",
+        "de": "Wie stolz macht es dich, ein Ziel genau wie geplant zu erreichen? (0 = 'Ist mir egal.', 100 = 'Das ist das Größte!')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 811,
+      "text": {
+        "en": "Would it frustrate you if a project is finished on time and on budget, but only 80% of features are included?",
+        "de": "Würde es dich frustrieren, wenn ein Projekt zwar pünktlich und im Budget fertig wird, aber nur 80% der geplanten Features enthält?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, frustrating", "de": "Ja, frustrierend", "points": 100 },
+        { "en": "No, okay", "de": "Nein, okay", "points": 0 }
+      ]
+    },
+    {
+      "id": 812,
+      "text": {
+        "en": "Planning a trip with friends: Are you the organizer for a perfect experience, or do you just want everyone to have fun, even if it’s a bit chaotic?",
+        "de": "Im Freundeskreis planst du einen Ausflug: Bist du der Organisator für das perfekte Erlebnis oder geht’s dir mehr ums Zusammensein?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Perfect organizer", "de": "Perfekt planen", "points": 100 },
+        { "en": "Fun & chaos okay", "de": "Zusammensein wichtiger", "points": 0 }
+      ]
+    },
+    {
+      "id": 813,
+      "text": {
+        "en": "Do you prefer to work on a single project as perfectly as possible, or juggle several projects even if there are tradeoffs in quality?",
+        "de": "Arbeitest du lieber an einem einzigen Projekt möglichst perfekt oder jonglierst du lieber mehrere Projekte mit Abstrichen bei der Qualität?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Single project, perfect", "de": "Ein Projekt, perfekt", "points": 100 },
+        { "en": "Several, tradeoffs", "de": "Mehrere, Abstriche okay", "points": 0 }
+      ]
+    },
+    {
+      "id": 814,
+      "text": {
+        "en": "Can you easily say, 'That’s enough, we’re done', or do you always find something to improve?",
+        "de": "Kannst du leicht sagen 'So, das reicht, wir sind fertig' oder findest du immer noch etwas, das man verbessern könnte?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Can say done", "de": "Kann abschließen", "points": 100 },
+        { "en": "Always improving", "de": "Immer noch verbessern", "points": 0 }
+      ]
+    },
+    {
+      "id": 815,
+      "text": {
+        "en": "Do you like standards and norms (ISO, checklists) because they guarantee quality, or do you find them bureaucratic?",
+        "de": "Findest du Standards und Normen (z.B. ISO, Checklisten) gut, weil sie Qualität sichern – oder nerven sie dich als Bürokratie?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Like standards", "de": "Gut, Qualitätssicherung", "points": 100 },
+        { "en": "Annoyed by bureaucracy", "de": "Nervt, Bürokratie", "points": 0 }
+      ]
+    },
+    {
+      "id": 816,
+      "text": {
+        "en": "How do you deal with feedback focused on quality? Happy to improve or annoyed by nitpicking?",
+        "de": "Wie gehst du mit Feedback zu Qualität um? Freust du dich, es besser machen zu können, oder nerven dich die Erbsenzähler?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Happy to improve", "de": "Freue mich", "points": 100 },
+        { "en": "Annoyed", "de": "Genervt", "points": 0 }
+      ]
+    },
+    {
+      "id": 817,
+      "text": {
+        "en": "Would you lower your own standards if another goal (social impact, speed, budget) is more important?",
+        "de": "Würdest du deine Ansprüche an Perfektion senken, wenn ein anderes Ziel wichtiger ist?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, can lower", "de": "Ja, kann senken", "points": 100 },
+        { "en": "No, always perfect", "de": "Nein, immer perfekt", "points": 0 }
+      ]
+    },
+    {
+      "id": 818,
+      "text": {
+        "en": "If you finish a project and everyone is happy but you know there are some minor flaws, can you let it go or does it keep you up at night?",
+        "de": "Angenommen, du schließt ein Projekt ab und alle sind zufrieden, aber du weißt von kleinen Makeln. Kannst du das abhaken oder hält dich das nachts wach?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Let it go", "de": "Kann abhaken", "points": 100 },
+        { "en": "Keeps me up", "de": "Hält mich wach", "points": 0 }
+      ]
+    },
+    {
+      "id": 819,
+      "text": {
+        "en": "Teamwork: Are you satisfied when the team reaches the goal even if your own contribution was less than possible, or are you annoyed if you couldn't show your best even if the team succeeded?",
+        "de": "Teamarbeit: Bist du zufrieden, wenn das Teamziel erreicht wird, auch wenn dein Beitrag unter deinen Möglichkeiten blieb, oder ärgert es dich, wenn du nicht dein Bestes zeigen konntest?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Satisfied with team success", "de": "Zufrieden mit Teamziel", "points": 100 },
+        { "en": "Annoyed if not best", "de": "Genervt, wenn nicht Bestes", "points": 0 }
+      ]
+    },
+    {
+      "id": 820,
+      "text": {
+        "en": "On a scale from 0-100: How much do you strive for excellence and perfect execution in life and work? (0 = 'Doesn’t matter', 100 = 'Always highest standards')",
+        "de": "Auf einer Skala von 0-100: Wie sehr strebst du nach Exzellenz und perfekter Umsetzung in Leben und Arbeit? (0 = 'Überhaupt nicht, Hauptsache fertig.', 100 = 'Extrem, immer höchste Maßstäbe.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    }
+  ]
+}
+,
+{
+  "criterion": { "en": "Personal Freedom / Self-Determination", "de": "Persönliche Freiheit / Selbstbestimmung" },
+  "questions": [
+    {
+      "id": 901,
+      "text": {
+        "en": "How important is your personal freedom in daily life—to decide what you do, how you live, and make your own decisions? (0 = 'Not important', 100 = 'Independence above all!')",
+        "de": "Wie wichtig ist dir deine persönliche Freiheit im Alltag – selbst bestimmen zu können, was du tust, wie du lebst und Entscheidungen triffst? (0 = 'Nicht wichtig', 100 = 'Unabhängigkeit über alles!')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 902,
+      "text": {
+        "en": "Would you rather give up some security than have your freedom restricted? (e.g., prefer living in a free country with less security than in a surveillance state with low crime?)",
+        "de": "Würdest du eher auf etwas Sicherheit verzichten, als dir deine Freiheit beschneiden zu lassen? (Beispiel: Lieber in einem Land mit viel Freiheit und weniger Sicherheit als in einem Überwachungsstaat mit geringer Kriminalität?)"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Freedom over security", "de": "Freiheit über Sicherheit", "points": 100 },
+        { "en": "Security over freedom", "de": "Sicherheit über Freiheit", "points": 0 }
+      ]
+    },
+    {
+      "id": 903,
+      "text": {
+        "en": "If someone gives you strict rules for something trivial (like dress code on casual Friday): Do you rebel (openly or inwardly) or does it not bother you?",
+        "de": "Wenn dir jemand strenge Vorschriften für eine banale Sache macht (z.B. Kleiderordnung am Casual Friday): Rebellierst du (offen oder innerlich) oder stört dich das nicht?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Rebel", "de": "Rebellieren", "points": 100 },
+        { "en": "Doesn't bother me", "de": "Stört mich nicht", "points": 0 }
+      ]
+    },
+    {
+      "id": 904,
+      "text": {
+        "en": "On a scale from 0-100: How much do you enjoy controlling your own schedule, lifestyle, and decisions?",
+        "de": "Auf einer Skala von 0-100: Wie sehr genießt du es, deinen eigenen Zeitplan, Lebensstil und Entscheidungen zu kontrollieren?"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 905,
+      "text": {
+        "en": "You get a great job offer, but with rigid hours, strict dress code, and almost no freedom for your own decisions. Do you accept or reject it?",
+        "de": "Du bekommst ein attraktives Jobangebot, aber mit sehr rigiden Arbeitszeiten, strenger Kleiderordnung und kaum Spielraum für eigene Entscheidungen. Nimmst du es an oder lehnst du ab?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Reject—freedom too important", "de": "Ablehnen – Freiheit zu wichtig", "points": 100 },
+        { "en": "Accept", "de": "Annehmen", "points": 0 }
+      ]
+    },
+    {
+      "id": 906,
+      "text": {
+        "en": "How do you react if someone tells you exactly how to do a task (even if you’d rather do it your own way)? Grateful for instructions, or annoyed?",
+        "de": "Wie reagierst du, wenn dir jemand genau vorschreibt, wie du eine Aufgabe erledigen sollst (obwohl du deinen eigenen Weg hättest)? Dankbar für die Anleitung oder genervt?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Annoyed", "de": "Genervt", "points": 100 },
+        { "en": "Grateful", "de": "Dankbar", "points": 0 }
+      ]
+    },
+    {
+      "id": 907,
+      "text": {
+        "en": "Would you support a law that restricts your own behavior but serves the greater good (e.g., strict speed limit for the environment)?",
+        "de": "Würdest du ein Gesetz unterstützen, das dein eigenes Verhalten einschränkt, aber einem guten Zweck dient? (z.B. striktes Tempolimit für den Klimaschutz)"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Support", "de": "Unterstützen", "points": 100 },
+        { "en": "Reject", "de": "Ablehnen", "points": 0 }
+      ]
+    },
+    {
+      "id": 908,
+      "text": {
+        "en": "In a discussion where most disagree: Do you firmly defend your own opinion, even if you’re alone, or do you adapt to keep the peace?",
+        "de": "In einer Diskussion mit vielen Gegenstimmen: Verteidigst du standhaft deine Meinung, auch wenn du allein dastehst, oder passt du dich an, um des lieben Friedens willen?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Defend own opinion", "de": "Meinung verteidigen", "points": 100 },
+        { "en": "Adapt", "de": "Anpassen", "points": 0 }
+      ]
+    },
+    {
+      "id": 909,
+      "text": {
+        "en": "When planning a vacation: Do you prefer to plan everything yourself and spontaneously, or do you like a fully organized group trip?",
+        "de": "Planst du deinen Urlaub am liebsten komplett selbst und spontan oder magst du lieber eine voll organisierte Gruppenreise?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Self-planned & spontaneous", "de": "Selbst und spontan", "points": 100 },
+        { "en": "Organized group trip", "de": "Organisierte Reise", "points": 0 }
+      ]
+    },
+    {
+      "id": 910,
+      "text": {
+        "en": "Would three strict rules at an event (no phones, white dress code, assigned seating) deter you from attending?",
+        "de": "Würde dich ein Handyverbot, Dresscode weiß und feste Sitzordnung bei einer Veranstaltung abschrecken?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, too many rules", "de": "Ja, zu viele Regeln", "points": 100 },
+        { "en": "No, would attend", "de": "Nein, würde hingehen", "points": 0 }
+      ]
+    },
+    {
+      "id": 911,
+      "text": {
+        "en": "How important is freedom of speech to you—even if other opinions annoy you? (0 = 'Not important', 100 = 'Very important, everyone must be allowed to speak their mind.')",
+        "de": "Wie wichtig ist dir Meinungsfreiheit – auch wenn andere Meinungen dich vielleicht ärgern? (0 = 'Nicht so wichtig', 100 = 'Sehr wichtig, jeder darf sagen, was er denkt.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 912,
+      "text": {
+        "en": "Do you need spaces in everyday life where you can do what you want without interference (e.g., own hobbies, alone time)?",
+        "de": "Brauchst du im Alltag Freiräume, in denen du tun und lassen kannst, was du möchtest, ohne dass dir jemand reinredet? (z.B. eigene Hobbys, Alleinzeit)"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, need spaces", "de": "Ja, brauche Freiräume", "points": 100 },
+        { "en": "No, not necessary", "de": "Nein, nicht nötig", "points": 0 }
+      ]
+    },
+    {
+      "id": 913,
+      "text": {
+        "en": "Does the word 'personal responsibility' bring you joy ('Yes, do it myself!') or stress ('Oh no, nobody helps…')?",
+        "de": "Das Wort 'Eigenverantwortung' – Freude ('Ja, selbst machen!') oder Stress ('Oh nein, keiner hilft mir…')?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Joy", "de": "Freude", "points": 100 },
+        { "en": "Stress", "de": "Stress", "points": 0 }
+      ]
+    },
+    {
+      "id": 914,
+      "text": {
+        "en": "In teams: Do you prefer a lot of freedom (you pick the path), or clear instructions (someone else decides)?",
+        "de": "Im Team arbeitest du lieber mit viel Freiheit (du wählst den Weg) oder mit klaren Anweisungen (jemand gibt vor, was zu tun ist)?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "A lot of freedom", "de": "Viel Freiheit", "points": 100 },
+        { "en": "Clear instructions", "de": "Klare Anweisungen", "points": 0 }
+      ]
+    },
+    {
+      "id": 915,
+      "text": {
+        "en": "Suppose you get unconditional basic income—but only if you live in a specific region and regularly attend training. Take it or refuse?",
+        "de": "Angenommen, du bekommst ein bedingungsloses Grundeinkommen, aber musst in einer bestimmten Region leben und regelmäßig an Fortbildungen teilnehmen. Nimmst du es an oder lehnst du ab?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Refuse", "de": "Ablehnen", "points": 100 },
+        { "en": "Take it", "de": "Annehmen", "points": 0 }
+      ]
+    },
+    {
+      "id": 916,
+      "text": {
+        "en": "'Freedom instead of comfort'—would you rather have independence even if it's uncertain, than be told what to do even if it's comfortable?",
+        "de": "'Freiheit statt Brötchen' – würdest du eher Unabhängigkeit wählen, auch wenn sie unsicher ist, als Fremdbestimmung, selbst wenn es bequem wäre?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Independence", "de": "Unabhängigkeit", "points": 100 },
+        { "en": "Comfort", "de": "Komfort", "points": 0 }
+      ]
+    },
+    {
+      "id": 917,
+      "text": {
+        "en": "How do you handle social expectations? Do you quickly feel restricted and sometimes break conventions, or do you find traditions helpful?",
+        "de": "Wie gehst du mit gesellschaftlichen Erwartungen um? Fühlst du dich schnell eingeschränkt und brichst auch mal Konventionen, oder geben dir Traditionen Orientierung?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Break conventions", "de": "Konventionen brechen", "points": 100 },
+        { "en": "Like traditions", "de": "Traditionen geben Orientierung", "points": 0 }
+      ]
+    },
+    {
+      "id": 918,
+      "text": {
+        "en": "When it comes to creative decisions (e.g., apartment or project design): Do you want total freedom or do you prefer some guidelines/standards?",
+        "de": "Bei kreativen Entscheidungen (z.B. Wohnung oder Projektgestaltung): Willst du völlige Freiheit oder lieber Vorgaben/Standards?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Total freedom", "de": "Völlige Freiheit", "points": 100 },
+        { "en": "Prefer guidelines", "de": "Vorgaben lieber", "points": 0 }
+      ]
+    },
+    {
+      "id": 919,
+      "text": {
+        "en": "Have you ever quit a contract, obligation, or group because it felt too restrictive—even if others had no problem with it?",
+        "de": "Hast du schon mal aus einem Vertrag, einer Verpflichtung oder Gruppe ausgestiegen, weil es dir zu eingeengt war – auch wenn andere kein Problem damit hatten?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, I have", "de": "Ja, habe ich", "points": 100 },
+        { "en": "No, never", "de": "Nein, nie", "points": 0 }
+      ]
+    },
+    {
+      "id": 920,
+      "text": {
+        "en": "On a scale from 0-100: How strong is your inner drive for freedom and self-determination in all areas of life? (0 = 'Not at all', 100 = 'Huge, restrictions frustrate me a lot')",
+        "de": "Auf einer Skala von 0-100: Wie stark ist dein innerer Drang nach Freiheit und Selbstbestimmung in allen Lebensbereichen? (0 = 'Kaum vorhanden, mir reicht es, wenn andere entscheiden.', 100 = 'Enorm – Begrenzungen frustrieren mich sehr.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    }
+  ]
+}
+,
+{
+  "criterion": { "en": "Security / Stability", "de": "Sicherheit / Stabilität" },
+  "questions": [
+    {
+      "id": 1001,
+      "text": {
+        "en": "How important is security and stability in your life – financially, professionally, personally? (0 = 'Not at all, I love risk', 100 = 'Very important, without security I feel uncomfortable')",
+        "de": "Wie wichtig ist dir Sicherheit und Stabilität in deinem Leben – finanziell, beruflich, privat? (0 = 'Überhaupt nicht – ich liebe das Risiko', 100 = 'Sehr – ohne Sicherheit fühle ich mich unwohl.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 1002,
+      "text": {
+        "en": "Would you give up some freedoms for greater security? (e.g., would cameras and strict rules everywhere be OK if there were less crime?)",
+        "de": "Würdest du zugunsten von mehr Sicherheit bestimmte Freiheiten aufgeben? (Beispiel: Wäre es für dich okay, überall Kameras zu haben oder strenge Regeln, wenn es dafür weniger Verbrechen gäbe?)"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Security over freedom", "de": "Sicherheit über Freiheit", "points": 100 },
+        { "en": "Freedom over security", "de": "Freiheit über Sicherheit", "points": 0 }
+      ]
+    },
+    {
+      "id": 1003,
+      "text": {
+        "en": "Do you feel more comfortable with a fixed plan for everything, or do you enjoy uncertainty? (Plan = security, Uncertainty = excitement/risk)",
+        "de": "Fühlst du dich wohler, wenn du für alles einen festen Plan hast, oder genießt du es, ins Ungewisse zu gehen? (Plan = Sicherheit, Ungewiss = Spannung/Risiko)"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Fixed plan", "de": "Fester Plan", "points": 100 },
+        { "en": "Uncertainty", "de": "Ungewissheit", "points": 0 }
+      ]
+    },
+    {
+      "id": 1004,
+      "text": {
+        "en": "On a scale from 0-100: How risk-taking are you? (0 = 'Not at all – I take no risks', 100 = 'No risk, no fun – full risk!')",
+        "de": "Auf einer Skala von 0-100: Wie risikofreudig bist du? (0 = 'Gar nicht – ich gehe kein Risiko ein.', 100 = 'No risk, no fun – volles Risiko!')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 1005,
+      "text": {
+        "en": "Are you someone who has insurance for everything (phone, travel, etc.), or only the bare minimum and trust it will be fine?",
+        "de": "Bist du jemand, der Versicherungen für wirklich alles hat (vom Handy bis zur Reiseversicherung), oder hast du nur das Nötigste und verlässt dich darauf, dass schon nichts schiefgeht?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Insure everything", "de": "Versichere alles", "points": 100 },
+        { "en": "Only essentials", "de": "Nur das Nötigste", "points": 0 }
+      ]
+    },
+    {
+      "id": 1006,
+      "text": {
+        "en": "When it comes to money: Do you prefer the safe savings account (low returns, but no loss) or riskier investments (stocks, crypto)?",
+        "de": "Beim Thema Geldanlage: Lieber das sichere Sparbuch (kaum Zinsen, aber kein Verlust) oder riskantere Anlagen wie Aktien/Krypto (höheres Risiko, höhere Chancen)?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Savings account", "de": "Sparbuch", "points": 100 },
+        { "en": "Risky investments", "de": "Risikoanlagen", "points": 0 }
+      ]
+    },
+    {
+      "id": 1007,
+      "text": {
+        "en": "Job choice: Would you prefer a somewhat boring but permanent job, or an exciting startup job where it's unclear if the company will exist next year?",
+        "de": "Jobwahl: Wärst du geneigt, einen etwas langweiligeren Job mit unbefristetem Vertrag einem spannenden Startup-Job vorzuziehen, bei dem aber unklar ist, ob die Firma nächstes Jahr noch existiert?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Permanent job", "de": "Unbefristeter Job", "points": 100 },
+        { "en": "Exciting startup", "de": "Startup", "points": 0 }
+      ]
+    },
+    {
+      "id": 1008,
+      "text": {
+        "en": "How important is social and political peace/security to you? Would you support strict measures for more security (e.g., curfews, more police) or are you cautious?",
+        "de": "Wie wichtig ist dir sozialer und politischer Frieden/Sicherheit? Würdest du strenge Maßnahmen unterstützen, wenn sie mehr Sicherheit versprechen – z.B. Ausgangssperren bei Gefahr, mehr Polizeipräsenz –, oder bist du da zurückhaltend?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Support strict measures", "de": "Strenge Maßnahmen unterstützen", "points": 100 },
+        { "en": "Cautious", "de": "Zurückhaltend", "points": 0 }
+      ]
+    },
+    {
+      "id": 1009,
+      "text": {
+        "en": "In relationships: Do you value consistency and routines (e.g., long-term friends, fixed rituals), or do you need excitement and change?",
+        "de": "In zwischenmenschlichen Beziehungen: Schätzt du Beständigkeit und Routine (z.B. langjährige Freunde, geregelte Abläufe) besonders, oder brauchst du immer mal wieder Aufregung und Veränderung?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Consistency/routine", "de": "Beständigkeit/Routine", "points": 100 },
+        { "en": "Excitement/change", "de": "Aufregung/Veränderung", "points": 0 }
+      ]
+    },
+    {
+      "id": 1010,
+      "text": {
+        "en": "You have to choose between two cars: One with all safety features but unspectacular, the other a sporty one with little safety equipment. Which do you take?",
+        "de": "Du musst dich zwischen zwei Autos entscheiden: Eines hat alle modernen Sicherheitsfeatures, aber ist unspektakulär. Das andere ist ein sportlicher Flitzer ohne viel Sicherheitsausstattung. Welches nimmst du?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Safety car", "de": "Sicheres Auto", "points": 100 },
+        { "en": "Sporty car", "de": "Sportwagen", "points": 0 }
+      ]
+    },
+    {
+      "id": 1011,
+      "text": {
+        "en": "\"Safety first, even if it's boring\" or \"Nothing ventured, nothing gained\" – which motto fits you better?",
+        "de": "\"Sicherheit zuerst, selbst wenn’s langweilig ist\" oder \"Wer nicht wagt, der nicht gewinnt\" – welcher Spruch passt besser zu dir?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Safety first", "de": "Sicherheit zuerst", "points": 100 },
+        { "en": "Nothing ventured", "de": "Wer nicht wagt...", "points": 0 }
+      ]
+    },
+    {
+      "id": 1012,
+      "text": {
+        "en": "A crisis is coming (pandemic, blackout, etc.). Do you immediately stock up, check your emergency plans, or stay calm and hope for the best?",
+        "de": "Eine Krise bahnt sich an (z.B. Pandemie oder Stromausfall). Bunkerst du sofort Vorräte, checkst deine Notfallpläne, oder bleibst du ruhig und hoffst, dass alles gut geht?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Prepare immediately", "de": "Sofort vorbereiten", "points": 100 },
+        { "en": "Stay calm", "de": "Ruhe bewahren", "points": 0 }
+      ]
+    },
+    {
+      "id": 1013,
+      "text": {
+        "en": "How much do you strive for professional security? Is civil service/unfirable job your dream, or would you feel comfortable as a freelancer despite uncertainty?",
+        "de": "Wie sehr strebst du nach beruflicher Sicherheit? Ist Verbeamtung oder ein unkündbarer Job dein Traum, oder würdest du dich auch als freier Unternehmer wohler fühlen, trotz Unsicherheit?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Civil service/unfirable job", "de": "Verbeamtung/unkündbar", "points": 100 },
+        { "en": "Freelancer/entrepreneur", "de": "Unternehmer/freiberuflich", "points": 0 }
+      ]
+    },
+    {
+      "id": 1014,
+      "text": {
+        "en": "If you build a house: Do you invest a lot in alarm system, cameras, strong fences etc., or more in chic design and big windows (minimal security)?",
+        "de": "Wenn du ein Haus baust: Investierst du viel in Alarmanlage, Kameras, stabile Zäune usw., oder eher in schickes Design und große Fenster – Sicherheit im Zweifel eher minimal?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Security features", "de": "Sicherheitsfeatures", "points": 100 },
+        { "en": "Design/windows", "de": "Design/große Fenster", "points": 0 }
+      ]
+    },
+    {
+      "id": 1015,
+      "text": {
+        "en": "On a scale from 0-100: How much uncertainty can you handle in life without getting nervous? (0 = 'None, I need plans A, B and C.', 100 = 'A lot, I find uncertainty exciting.')",
+        "de": "Auf einer Skala von 0-100: Wie viel Ungewissheit kannst du im Leben aushalten, ohne nervös zu werden? (0 = 'Gar keine – ich brauche einen Plan A, B und C.', 100 = 'Sehr viel – ich finde Ungewissheit spannend.')"
+      },
+      "type": "scale",
+      "from": 0,
+      "to": 100
+    },
+    {
+      "id": 1016,
+      "text": {
+        "en": "In new situations: Are you cautious and consider the worst-case, or do you jump in without much thought?",
+        "de": "Bist du jemand, der bei neuen Situationen erstmal vorsichtig ist und Worst-Case-Szenarien bedenkt, oder stürzt du dich eher ohne groß nachzudenken hinein?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Cautious", "de": "Vorsichtig", "points": 100 },
+        { "en": "Impulsive", "de": "Impulsiv", "points": 0 }
+      ]
+    },
+    {
+      "id": 1017,
+      "text": {
+        "en": "Do you value a financial cushion (emergency fund) for hard times? Or do you mostly live in the moment and don't care much about 'what if...?'",
+        "de": "Legst du Wert auf ein finanzielles Polster (Notgroschen) für schlechte Zeiten? Oder lebst du eher im Hier und Jetzt und kümmerst dich nicht so sehr um 'was wäre, wenn...'"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, value a cushion", "de": "Ja, Notgroschen wichtig", "points": 100 },
+        { "en": "No, live in the moment", "de": "Nein, lebe im Moment", "points": 0 }
+      ]
+    },
+    {
+      "id": 1018,
+      "text": {
+        "en": "Thinking about the future: Are you more worried and take precautions (own home, pension, crisis supplies), or optimistic that things will be fine?",
+        "de": "Wenn du an die Zukunft denkst (persönlich oder global): Bist du eher besorgt und triffst Vorkehrungen (z.B. Eigenheim, Altersvorsorge, Krisenvorrat), oder optimistisch, dass schon alles gutgehen wird?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Worried/take precautions", "de": "Besorgt/Vorkehrungen treffen", "points": 100 },
+        { "en": "Optimistic", "de": "Optimistisch", "points": 0 }
+      ]
+    },
+    {
+      "id": 1019,
+      "text": {
+        "en": "In discussions: Do you understand people demanding drastic security measures (tough laws, surveillance) or do you defend freedom and say 'We must not overreact'?",
+        "de": "Hast du in Diskussionen eher Verständnis für Leute, die drastische Maßnahmen für mehr Sicherheit fordern (z.B. härtere Gesetze, Überwachung), oder verteidigst du lieber die Freiheit und sagst 'Wir dürfen nicht überreagieren'?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Understand security demands", "de": "Verständnis für Sicherheitsforderungen", "points": 100 },
+        { "en": "Defend freedom", "de": "Freiheit verteidigen", "points": 0 }
+      ]
+    },
+    {
+      "id": 1020,
+      "text": {
+        "en": "Would you pay a high price (money, comfort, or freedom) to gain much more security – physical, financial or emotional?",
+        "de": "Würdest du einen hohen Preis (sei es Geld, Komfort oder etwas Freiheit) zahlen, wenn du dafür deutlich mehr Sicherheit gewinnst – sei es physisch, finanziell oder emotional?"
+      },
+      "type": "choice",
+      "options": [
+        { "en": "Yes, pay for security", "de": "Ja, zahle für Sicherheit", "points": 100 },
+        { "en": "No, not worth it", "de": "Nein, nicht wert", "points": 0 }
+      ]
+    }
+  ]
+}
 ]

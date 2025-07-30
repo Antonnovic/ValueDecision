@@ -1,6 +1,6 @@
 // app.js
 
-let userValues = []; // Wird aus questions.json geladen
+let userValues = []; // Hier werden die Werte gespeichert
 
 // Hilfsfunktion: Daten laden (async)
 async function loadQuestions() {
@@ -8,7 +8,7 @@ async function loadQuestions() {
     return await res.json();
 }
 
-// Initialisiert die Werte-Matrix-UI
+// Werte-Matrix-UI anzeigen
 function renderValuesMatrix(questions) {
     const app = document.getElementById("decision-app");
     if (!app) return;
@@ -28,13 +28,15 @@ function renderValuesMatrix(questions) {
         <tr>
           <td>${q.key}</td>
           <td>${q.label}</td>
-          <td><input type="number" min="0" max="100" name="weight_${i}" value="${q.weight || 50}" style="width:60px"></td>
+          <td>
+            <input type="number" min="0" max="100" name="weight_${i}" value="${q.weight || 50}" style="width:60px">
+          </td>
         </tr>
         `;
     });
 
     html += `</table>
-      <button type="submit">Speichern & Weiter zur Entscheidung</button>
+      <button type="submit" class="btn">Speichern & Weiter zur Entscheidung</button>
     </form>`;
 
     app.innerHTML = html;
@@ -46,20 +48,20 @@ function renderValuesMatrix(questions) {
             name: q.label,
             weight: parseInt(document.querySelector(`[name="weight_${i}"]`).value)
         }));
+        // Speichern im localStorage
         localStorage.setItem("userValues", JSON.stringify(userValues));
-        setupDecisionModule(); // Starte Entscheidungsmodul (aus decision.js)
+        // Starte Entscheidungsmodul (aus decision.js)
+        setupDecisionModule();
     };
 }
 
 // App-Startpunkt: Werte laden, ggf. aus LocalStorage
 async function main() {
-    // Prüfe, ob Werte schon gespeichert sind
     let stored = localStorage.getItem("userValues");
     if (stored) {
         userValues = JSON.parse(stored);
-        setupDecisionModule(); // Direkt zur Entscheidungsmatrix
+        setupDecisionModule();
     } else {
-        // Fragen laden und Werte-Matrix anzeigen
         const questions = await loadQuestions();
         renderValuesMatrix(questions);
     }
